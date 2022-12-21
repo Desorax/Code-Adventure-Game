@@ -1,0 +1,49 @@
+using System.Collections.Generic;
+using System.Net.Sockets;
+using System.Reflection;
+using System;
+using System.Runtime.CompilerServices;
+using System.Runtime.ConstrainedExecution;
+using System.Runtime.Intrinsics.X86;
+using Microsoft.VisualBasic;
+using System.Linq;
+using System.Globalization;
+using System.ComponentModel;
+
+Console.WriteLine("Wilkommen Abenteurer zu deinem Ersten Abenteuer,vorab benötigen wir Informationen,\n Bitte bestätige jedesmal mit der Entertaste um weiterzuführen");
+
+Console.WriteLine("Ist es dein erstes Spiel? Antworte Bitte mit Ja oder Nein");
+Console.ReadLine();
+bool erstesspiel = true;
+
+if (erstesspiel == true)
+    if (erstesspiel == false) ;
+
+{
+    Console.WriteLine("Dann wünsche ich dir Viel Spaß in deinem Ersten abenteuer\n Bitte gib uns noch deinen  Namen ein ");
+    string username = Console.ReadLine();
+    Console.WriteLine($"Hallo {username} Wilkommen bei deinem ersten Abenteuer");
+    Console.WriteLine("Dann legen wir mit der Einleitung los");
+    Console.WriteLine("Es ist stürmische Nacht, ein einsamer Abenteurer kehrt in eine runtergekommene Taverne ein.");
+    Console.WriteLine("Das sichernde Licht verdeckt den Blick auf die bereits anwesenden Gäste.");
+    Console.WriteLine("Der durch die kalte Nacht erschöpfte Abenteurer lässt sich an der Bar nieder sacken");
+    Console.WriteLine("Mit einem Murren fragt ihn der Barkeeper was er denn noch zu der späten Stunde wolle, Bitte bestätige mit der entertaste!");
+}
+
+else
+{
+    if (erstespiel == false) ;
+        string userInput = Console.ReadLine();
+        Console.WriteLine("1 Ich bin hier um etwas zu Trinken!");
+        userInput = Console.ReadLine();
+        Console.WriteLine("2 Ich bin auf der suche nach Abenteuer und Schätze!");
+        userInput = Console.ReadLine();
+        Console.WriteLine("Bitte Bestätige deine Antwort mit 1 oder 2");
+        Console.WriteLine(userInput);
+        Console.ReadLine();
+        {
+
+
+            Console.WriteLine($"Du hast folgendes eingegeben: {userInput}");
+        }
+                                    }
